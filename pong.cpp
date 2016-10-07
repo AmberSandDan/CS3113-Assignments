@@ -180,7 +180,7 @@ void Setup(Paddle &padOne, Paddle &padTwo, Ball &ballOne)
 
 	//view size
 	glViewport(0, 0, 640, 360);
-	program = new ShaderProgram(RESOURCE_FOLDER"vertex_textured.glsl", RESOURCE_FOLDER"fragment_textured.glsl");
+	program = new ShaderProgram (RESOURCE_FOLDER"vertex_textured.glsl", RESOURCE_FOLDER"fragment_textured.glsl");
 
 	//Allow transparency
 	glEnable(GL_BLEND);
